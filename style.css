@@ -30,8 +30,9 @@ background-color: rgb(85, 85, 85);
 background-color: hsl(216, 50%, 16%);
 box-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
-
+/* THIS HOVER IS JUST EXTRA TO SHOW A DIFFERENT WAY TO DO A GRADIENT */
 .card:hover {
+    /* THIS PUTS A LINEAR GRADIENT AT 210DEG ON HOVER */
     background: linear-gradient(210deg, rgba(105, 105, 105, 0.523),  rgba(0, 255, 21, 0.421),rgba(105, 105, 105, 0.523),rgba(0, 255, 21, 0.306), rgba(101, 101, 101, 0.51));
     transition: all 0.5s ease;
     transform: scale(1.025);
@@ -42,8 +43,10 @@ box-shadow: 0px 0px 10px rgb(0, 0, 0);
     height: 250px;
     border-radius: 10px;
 }
-
+/* THIS HOVER IS JUST EXTRA TO SHOW A DIFFERENT WAY TO DO A GRADIENT 
+BUT ONLY BY ADDING IT TO THE TEXT ONLY INSIDE THE PARENT */
 h4:hover {
+    /* THIS PUTS A LINEAR GRADIENT AT 170DEG ON HOVER BUT ONLY PUTS THE GRADIENT ON THE TEXT */
     background: linear-gradient(170deg,#DCE0D9, #C2714F,  red, #47624F);
     background-clip: text;
     -webkit-background-clip: text;
