@@ -21,14 +21,15 @@ h3, h5 {
     color: #ebebeb;
 }
 
-.card {
+.card, .card1 {
 height: 500px;
 width: 275px;
 border-radius: 15px;
 padding: 20px;
 background-color: rgb(85, 85, 85);
-background-color: hsl(216, 50%, 16%);
+
 box-shadow: 0px 0px 10px rgb(0, 0, 0);
+margin: 25px;
 }
 /* THIS HOVER IS JUST EXTRA TO SHOW A DIFFERENT WAY TO DO A GRADIENT */
 .card:hover {
@@ -38,10 +39,25 @@ box-shadow: 0px 0px 10px rgb(0, 0, 0);
     transform: scale(1.025);
 }
 
+.card1 {
+    position: relative;
+    top: 0; 
+    transition: top ease-in-out;
+    transition-duration: 0.8s;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    top: -10px;
+    right: -15px;
+}
+
 #NFT {
     width: 100%;
     height: 250px;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
 }
 /* THIS HOVER IS JUST EXTRA TO SHOW A DIFFERENT WAY TO DO A GRADIENT 
 BUT ONLY BY ADDING IT TO THE TEXT ONLY INSIDE THE PARENT */
@@ -52,9 +68,9 @@ h4:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
+    transition-duration: 0.3s;
 }
-
 .data > h4 > img {
     padding-right: 12px;
 }
