@@ -1,7 +1,7 @@
 # NFT-Card
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) !['alt text'](https://img.shields.io/badge/CSS-52.3%25-purple)
-!['alt text'](https://img.shields.io/badge/HTML-47.7%25-red) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) !['alt text'](https://img.shields.io/badge/CSS-44.7%25-purple)
+!['alt text'](https://img.shields.io/badge/HTML-40.8%25-red) !['alt text'](https://img.shields.io/badge/JavaScript-14.5%25-yellow)
  
 ## Project Details
 
